@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="@" class="logo"><span>PixelOtaku</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">about</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        
+        <!-- hamburger menu from 'fontawesome'-->
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn">visit github</button>
+    </header>
+
+
+    <!-- Main Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+
+            <img src="assets/images/Me.jpg">
+
+            <div class="info-box">
+
+                <!-- a brief description of me -->
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Prince M Theko</h1>
+                    <span>
+                        highschool student
+                    </span>
+                </div>
+
+                <!-- buttons -->
+                <div class="btn-group">
+                    <div class="btn">Contact</div>
+                </div>
+
+                 <!-- links to socials -->
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-itch-io"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Experience Section -->
+     <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Game Development</span>
+                    <h3>12 years</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, incidunt nam eveniet similique rerum eius adipisci ex nihil est voluptatibus dolorum numquam expedita obcaecati officiis facere quisquam ut necessitatibus amet.</p>
+                </div>
+
+                
+                <div class="grid-card">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Tools Development</span>
+                    <h3>17 years</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, incidunt nam eveniet similique rerum eius adipisci ex nihil est voluptatibus dolorum numquam expedita obcaecati officiis facere quisquam ut necessitatibus amet.</p>
+                </div>
+
+                
+                <div class="grid-card">
+                    <i class="fa-regular fa-sun"></i>
+                    <span>Graphics engineering</span>
+                    <h3>12 years</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, incidunt nam eveniet similique rerum eius adipisci ex nihil est voluptatibus dolorum numquam expedita obcaecati officiis facere quisquam ut necessitatibus amet.</p>
+                </div>
+                
+                <div class="grid-card">
+                    <i class="fa-solid fa-couch"></i>
+                    <span>Master of Chill</span>
+                    <h3>1 years</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, incidunt nam eveniet similique rerum eius adipisci ex nihil est voluptatibus dolorum numquam expedita obcaecati officiis facere quisquam ut necessitatibus amet.</p>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+
+    
+    <!-- Projects Section -->
+     <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets/images/CGLogo.webp" alt="">
+
+                <h3>CoG</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veniam qui quas nulla maxime magni, voluptas, ea maiores optio id omnis? Iste necessitatibus corporis et similique recusandae maiores laboriosam reprehenderit!</p>
+                <div class="btn-group">
+                    <div class="btn">Github</div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="assets/images/BootUPLogo.webp" alt="">
+
+                <h3>BootUp</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veniam qui quas nulla maxime magni, voluptas, ea maiores optio id omnis? Iste necessitatibus corporis et similique recusandae maiores laboriosam reprehenderit!</p>
+                <div class="btn-group">
+                    <div class="btn">Github</div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="assets/images/NoLogo.webp" alt="">
+
+                <h3>Meka</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veniam qui quas nulla maxime magni, voluptas, ea maiores optio id omnis? Iste necessitatibus corporis et similique recusandae maiores laboriosam reprehenderit!</p>
+                <div class="btn-group">
+                    <div class="btn">Github</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@email.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+
+    
+    <!-- Footer Section -->
+     <footer>
+        <p class="copyright">All rights reserved | Prince M Theko</p>
+     </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
